@@ -46,3 +46,100 @@ Unable to read VR Path Registry from C:\Users\charleychen\AppData\Local\openvr\o
 1515483561042	Marionette	WARN	TLS certificate errors will be ignored for this session
 Unable to read VR Path Registry from C:\Users\charleychen\AppData\Local\openvr\openvrpaths.vrpath
 JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1515500320669	geckodriver	INFO	geckodriver 0.19.0
+1515500320694	geckodriver	INFO	Listening on 127.0.0.1:53335
+1515500323800	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.xbcttfzFjPAl"
+1515500326573	Marionette	INFO	Enabled via --marionette
+1515500331647	Marionette	INFO	Listening on port 53346
+1515500331917	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=p&json=1&p=3&sid=1439_21090_17001&req=2&csor=1&cb=jQuery110202217403510024596_1515500333488&_=1515500333490, line 1: TypeError: jQuery110202217403510024596_1515500333488 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=py&json=1&p=3&sid=1439_21090_17001&req=2&csor=2&pwd=p&cb=jQuery110202217403510024596_1515500333488&_=1515500333491, line 1: TypeError: jQuery110202217403510024596_1515500333488 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyt&json=1&p=3&sid=1439_21090_17001&req=2&csor=3&pwd=py&cb=jQuery110202217403510024596_1515500333488&_=1515500333492, line 1: TypeError: jQuery110202217403510024596_1515500333488 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyth&json=1&p=3&sid=1439_21090_17001&req=2&csor=4&pwd=pyt&cb=jQuery110202217403510024596_1515500333488&_=1515500333493, line 1: TypeError: jQuery110202217403510024596_1515500333488 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pytho&json=1&p=3&sid=1439_21090_17001&req=2&csor=5&pwd=pyth&cb=jQuery110202217403510024596_1515500333488&_=1515500333494, line 1: TypeError: jQuery110202217403510024596_1515500333488 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python&json=1&p=3&sid=1439_21090_17001&req=2&csor=6&pwd=pytho&cb=jQuery110202217403510024596_1515500333488&_=1515500333495, line 1: TypeError: jQuery110202217403510024596_1515500333488 is not a function
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 6256, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1515500337219	geckodriver	INFO	geckodriver 0.19.0
+1515500337239	geckodriver	INFO	Listening on 127.0.0.1:53425
+1515500340320	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.RXYmaEZsIoDX"
+1515500341356	Marionette	INFO	Enabled via --marionette
+1515500343736	Marionette	INFO	Listening on port 53434
+1515500344026	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=a&json=1&p=3&sid=25575_1457_21106_17001_20929&req=2&csor=1&cb=jQuery110202570206473262543_1515500344980&_=1515500344982, line 1: TypeError: jQuery110202570206473262543_1515500344980 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aa&json=1&p=3&sid=25575_1457_21106_17001_20929&req=2&csor=2&pwd=a&cb=jQuery110202570206473262543_1515500344980&_=1515500344983, line 1: TypeError: jQuery110202570206473262543_1515500344980 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aax&json=1&p=3&sid=25575_1457_21106_17001_20929&req=2&csor=3&pwd=aa&cb=jQuery110202570206473262543_1515500344980&_=1515500344984, line 1: TypeError: jQuery110202570206473262543_1515500344980 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aaxi&json=1&p=3&sid=25575_1457_21106_17001_20929&req=2&csor=4&pwd=aax&cb=jQuery110202570206473262543_1515500344980&_=1515500344985, line 1: TypeError: jQuery110202570206473262543_1515500344980 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aaxis&json=1&p=3&sid=25575_1457_21106_17001_20929&req=2&csor=5&pwd=aaxi&cb=jQuery110202570206473262543_1515500344980&_=1515500344986, line 1: TypeError: jQuery110202570206473262543_1515500344980 is not a function
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7768, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7884, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1515500706712	geckodriver	INFO	geckodriver 0.19.0
+1515500706732	geckodriver	INFO	Listening on 127.0.0.1:54007
+1515500709787	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.jDfRCUmSBBe9"
+1515500710759	Marionette	INFO	Enabled via --marionette
+1515500713108	Marionette	INFO	Listening on port 54019
+1515500713518	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pytho&json=1&p=3&sid=1430_13701_21088_18560_20928&req=2&csor=5&pwd=pyth&cb=jQuery110201314956441783115_1515500714515&_=1515500714521, line 1: TypeError: jQuery110201314956441783115_1515500714515 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyt&json=1&p=3&sid=1430_13701_21088_18560_20928&req=2&csor=3&pwd=py&cb=jQuery110201314956441783115_1515500714515&_=1515500714519, line 1: TypeError: jQuery110201314956441783115_1515500714515 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyth&json=1&p=3&sid=1430_13701_21088_18560_20928&req=2&csor=4&pwd=pyt&cb=jQuery110201314956441783115_1515500714515&_=1515500714520, line 1: TypeError: jQuery110201314956441783115_1515500714515 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python&json=1&p=3&sid=1430_13701_21088_18560_20928&req=2&csor=6&pwd=pytho&cb=jQuery110201314956441783115_1515500714515&_=1515500714522, line 1: TypeError: jQuery110201314956441783115_1515500714515 is not a function
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7628, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Child 8040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1515500717960	geckodriver	INFO	geckodriver 0.19.0
+1515500717980	geckodriver	INFO	Listening on 127.0.0.1:54097
+1515500721048	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.4Jl3dNYTJUv1"
+1515500722064	Marionette	INFO	Enabled via --marionette
+1515500724330	Marionette	INFO	Listening on port 54108
+1515500724699	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=a&json=1&p=3&sid=1465_19033_21083_17001_20930&req=2&csor=1&cb=jQuery1102033432325332745505_1515500725505&_=1515500725507, line 1: TypeError: jQuery1102033432325332745505_1515500725505 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aax&json=1&p=3&sid=1465_19033_21083_17001_20930&req=2&csor=3&pwd=aa&cb=jQuery1102033432325332745505_1515500725505&_=1515500725509, line 1: TypeError: jQuery1102033432325332745505_1515500725505 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aa&json=1&p=3&sid=1465_19033_21083_17001_20930&req=2&csor=2&pwd=a&cb=jQuery1102033432325332745505_1515500725505&_=1515500725508, line 1: TypeError: jQuery1102033432325332745505_1515500725505 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aaxis&json=1&p=3&sid=1465_19033_21083_17001_20930&req=2&csor=5&pwd=aaxi&cb=jQuery1102033432325332745505_1515500725505&_=1515500725511, line 1: TypeError: jQuery1102033432325332745505_1515500725505 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aaxi&json=1&p=3&sid=1465_19033_21083_17001_20930&req=2&csor=4&pwd=aax&cb=jQuery1102033432325332745505_1515500725505&_=1515500725510, line 1: TypeError: jQuery1102033432325332745505_1515500725505 is not a function
+Invalid port. Exiting...
+Invalid port. Exiting...
+Invalid port. Exiting...
+Invalid port. Exiting...
+Invalid port. Exiting...
+Invalid port. Exiting...
+1515502967695	geckodriver	INFO	geckodriver 0.19.0
+1515502967725	geckodriver	INFO	Listening on 127.0.0.1:55734
+1515502970807	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.DxRVQQJR6s7W"
+1515502971794	Marionette	INFO	Enabled via --marionette
+1515502974376	Marionette	INFO	Listening on port 55744
+1515502974596	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=p&json=1&p=3&sid=1468_21080_20927&req=2&csor=1&cb=jQuery110207295361442789665_1515502975598&_=1515502975600, line 1: TypeError: jQuery110207295361442789665_1515502975598 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=py&json=1&p=3&sid=1468_21080_20927&req=2&csor=2&pwd=p&cb=jQuery110207295361442789665_1515502975598&_=1515502975601, line 1: TypeError: jQuery110207295361442789665_1515502975598 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyt&json=1&p=3&sid=1468_21080_20927&req=2&csor=3&pwd=py&cb=jQuery110207295361442789665_1515502975598&_=1515502975602, line 1: TypeError: jQuery110207295361442789665_1515502975598 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pyth&json=1&p=3&sid=1468_21080_20927&req=2&csor=4&pwd=pyt&cb=jQuery110207295361442789665_1515502975598&_=1515502975603, line 1: TypeError: jQuery110207295361442789665_1515502975598 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=pytho&json=1&p=3&sid=1468_21080_20927&req=2&csor=5&pwd=pyth&cb=jQuery110207295361442789665_1515502975598&_=1515502975604, line 1: TypeError: jQuery110207295361442789665_1515502975598 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=python&json=1&p=3&sid=1468_21080_20927&req=2&csor=6&pwd=pytho&cb=jQuery110207295361442789665_1515502975598&_=1515502975605, line 1: TypeError: jQuery110207295361442789665_1515502975598 is not a function
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 7436, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1515502979198	geckodriver	INFO	geckodriver 0.19.0
+1515502979218	geckodriver	INFO	Listening on 127.0.0.1:55826
+1515502982299	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Firefox Developer Edition\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile.GmD4CBXdM7gH"
+1515502983376	Marionette	INFO	Enabled via --marionette
+1515502985823	Marionette	INFO	Listening on port 55835
+1515502986069	Marionette	WARN	TLS certificate errors will be ignored for this session
+Unable to read VR Path Registry from C:\Users\Administrator\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=a&json=1&p=3&sid=1463_21098_18559_20719&req=2&csor=1&cb=jQuery110209816831981561951_1515502986984&_=1515502986986, line 1: TypeError: jQuery110209816831981561951_1515502986984 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aa&json=1&p=3&sid=1463_21098_18559_20719&req=2&csor=2&pwd=a&cb=jQuery110209816831981561951_1515502986984&_=1515502986987, line 1: TypeError: jQuery110209816831981561951_1515502986984 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aax&json=1&p=3&sid=1463_21098_18559_20719&req=2&csor=3&pwd=aa&cb=jQuery110209816831981561951_1515502986984&_=1515502986988, line 1: TypeError: jQuery110209816831981561951_1515502986984 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aaxi&json=1&p=3&sid=1463_21098_18559_20719&req=2&csor=4&pwd=aax&cb=jQuery110209816831981561951_1515502986984&_=1515502986989, line 1: TypeError: jQuery110209816831981561951_1515502986984 is not a function
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=aaxis&json=1&p=3&sid=1463_21098_18559_20719&req=2&csor=5&pwd=aaxi&cb=jQuery110209816831981561951_1515502986984&_=1515502986990, line 1: TypeError: jQuery110209816831981561951_1515502986984 is not a function

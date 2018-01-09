@@ -28,3 +28,4 @@ class Config:
 if __name__ == '__main__':
     c = Config()
     print(c.get('URL'))
+    print(DRIVER_PATH)

@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 """
 A TestRunner for use with the Python unit testing framework. It
 generates a HTML report to show the result at a glance.
@@ -66,14 +65,11 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 # URL: http://tungwaiyip.info/software/HTMLTestRunner.html
 
 __author__ = "Wai Yip Tung"
-__version__ = "0.8.3"
+__version__ = "0.8.2"
 
 
 """
 Change History
-Version 0.8.3
-* Use Bootstrap (Zhang Xin)
-* Change to Chinese (Zhang Xin)
 
 Version 0.8.2
 * Show output inline instead of popup window (Viorel Lupu).
@@ -95,8 +91,8 @@ Version in 0.7.1
 # TODO: simplify javascript using ,ore than 1 class in the class attribute?
 
 import datetime
-import sys
 import io
+import sys
 import time
 import unittest
 from xml.sax import saxutils
@@ -176,9 +172,9 @@ class Template_mixin(object):
     """
 
     STATUS = {
-    0: u'通过',
-    1: u'失败',
-    2: u'错误',
+    0: 'pass',
+    1: 'fail',
+    2: 'error',
     }
 
     DEFAULT_TITLE = 'Unit Test Report'
@@ -195,7 +191,6 @@ class Template_mixin(object):
     <meta name="generator" content="%(generator)s"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     %(stylesheet)s
-    <link href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <script language="javascript" type="text/javascript"><!--
@@ -292,13 +287,11 @@ function showOutput(id, name) {
 }
 */
 --></script>
-<div id="div_base">
 
 %(heading)s
 %(report)s
 %(ending)s
 
-</div>
 </body>
 </html>
 """
@@ -315,7 +308,7 @@ function showOutput(id, name) {
 <style type="text/css" media="screen">
 body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
 table       { font-size: 100%; }
-pre         { white-space: pre-wrap;word-wrap: break-word; }
+pre         { }
 
 /* -- heading ---------------------------------------------------------------------- */
 h1 {
@@ -333,8 +326,8 @@ h1 {
 }
 
 .heading .description {
-    margin-top: 2ex;
-    margin-bottom: 3ex;
+    margin-top: 4ex;
+    margin-bottom: 6ex;
 }
 
 /* -- css div popup ------------------------------------------------------------------------ */
@@ -356,7 +349,7 @@ a.popup_link:hover {
     font-family: "Lucida Console", "Courier New", Courier, monospace;
     text-align: left;
     font-size: 8pt;
-    /* width: 500px;*/
+    width: 500px;
 }
 
 }
@@ -366,19 +359,25 @@ a.popup_link:hover {
     margin-bottom: 1ex;
 }
 #result_table {
-    width: 99%;
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #777;
 }
 #header_row {
     font-weight: bold;
     color: white;
     background-color: #777;
 }
+#result_table td {
+    border: 1px solid #777;
+    padding: 2px;
+}
 #total_row  { font-weight: bold; }
-.passClass  { background-color: #74A474; }
-.failClass  { background-color: #FDD283; }
-.errorClass { background-color: #FF6600; }
+.passClass  { background-color: #6c6; }
+.failClass  { background-color: #c60; }
+.errorClass { background-color: #c00; }
 .passCase   { color: #6c6; }
-.failCase   { color: #FF6600; font-weight: bold; }
+.failCase   { color: #c60; font-weight: bold; }
 .errorCase  { color: #c00; font-weight: bold; }
 .hiddenRow  { display: none; }
 .testcase   { margin-left: 2em; }
@@ -388,15 +387,6 @@ a.popup_link:hover {
 #ending {
 }
 
-#div_base {
-            position:absolute;
-            top:0%;
-            left:5%;
-            right:5%;
-            width: auto;
-            height: auto;
-            margin: -15px 0 0 0;
-}
 </style>
 """
 
@@ -406,11 +396,11 @@ a.popup_link:hover {
     # Heading
     #
 
-    HEADING_TMPL = """<div class='page-header'>
+    HEADING_TMPL = """<div class='heading'>
 <h1>%(title)s</h1>
 %(parameters)s
-</div>
 <p class='description'>%(description)s</p>
+</div>
 
 """ # variables: (title, parameters, description)
 
@@ -423,14 +413,13 @@ a.popup_link:hover {
     # Report
     #
 
-    REPORT_TMPL = u"""
-<div class="btn-group btn-group-sm">
-<button class="btn btn-default" onclick='javascript:showCase(0)'>总结</button>
-<button class="btn btn-default" onclick='javascript:showCase(1)'>失败</button>
-<button class="btn btn-default" onclick='javascript:showCase(2)'>全部</button>
-</div>
-<p></p>
-<table id='result_table' class="table table-bordered">
+    REPORT_TMPL = """
+<p id='show_detail_line'>Show
+<a href='javascript:showCase(0)'>Summary</a>
+<a href='javascript:showCase(1)'>Failed</a>
+<a href='javascript:showCase(2)'>All</a>
+</p>
+<table id='result_table'>
 <colgroup>
 <col align='left' />
 <col align='right' />
@@ -440,16 +429,16 @@ a.popup_link:hover {
 <col align='right' />
 </colgroup>
 <tr id='header_row'>
-    <td>测试套件/测试用例</td>
-    <td>总数</td>
-    <td>通过</td>
-    <td>失败</td>
-    <td>错误</td>
-    <td>查看</td>
+    <td>Test Group/Test case</td>
+    <td>Count</td>
+    <td>Pass</td>
+    <td>Fail</td>
+    <td>Error</td>
+    <td>View</td>
 </tr>
 %(test_list)s
 <tr id='total_row'>
-    <td>总计</td>
+    <td>Total</td>
     <td>%(count)s</td>
     <td>%(Pass)s</td>
     <td>%(fail)s</td>
@@ -459,14 +448,14 @@ a.popup_link:hover {
 </table>
 """ # variables: (test_list, count, Pass, fail, error)
 
-    REPORT_CLASS_TMPL = u"""
+    REPORT_CLASS_TMPL = r"""
 <tr class='%(style)s'>
     <td>%(desc)s</td>
     <td>%(count)s</td>
     <td>%(Pass)s</td>
     <td>%(fail)s</td>
     <td>%(error)s</td>
-    <td><a href="javascript:showClassDetail('%(cid)s',%(count)s)">详情</a></td>
+    <td><a href="javascript:showClassDetail('%(cid)s',%(count)s)">Detail</a></td>
 </tr>
 """ # variables: (style, desc, count, Pass, fail, error, cid)
 
@@ -542,7 +531,6 @@ class _TestResult(TestResult):
         #   stack trace,
         # )
         self.result = []
-        self.subtestlist = []
 
 
     def startTest(self, test):
@@ -578,17 +566,16 @@ class _TestResult(TestResult):
 
 
     def addSuccess(self, test):
-        if test not in self.subtestlist:
-            self.success_count += 1
-            TestResult.addSuccess(self, test)
-            output = self.complete_output()
-            self.result.append((0, test, output, ''))
-            if self.verbosity > 1:
-                sys.stderr.write('ok ')
-                sys.stderr.write(str(test))
-                sys.stderr.write('\n')
-            else:
-                sys.stderr.write('.')
+        self.success_count += 1
+        TestResult.addSuccess(self, test)
+        output = self.complete_output()
+        self.result.append((0, test, output, ''))
+        if self.verbosity > 1:
+            sys.stderr.write('ok ')
+            sys.stderr.write(str(test))
+            sys.stderr.write('\n')
+        else:
+            sys.stderr.write('.')
 
     def addError(self, test, err):
         self.error_count += 1
@@ -616,50 +603,6 @@ class _TestResult(TestResult):
         else:
             sys.stderr.write('F')
 
-    def addSubTest(self, test, subtest, err):
-        if err is not None:
-            if getattr(self, 'failfast', False):
-                self.stop()
-            if issubclass(err[0], test.failureException):
-                self.failure_count += 1
-                errors = self.failures
-                errors.append((subtest, self._exc_info_to_string(err, subtest)))
-                output = self.complete_output()
-                self.result.append((1, test, output + '\nSubTestCase Failed:\n' + str(subtest),
-                                    self._exc_info_to_string(err, subtest)))
-                if self.verbosity > 1:
-                    sys.stderr.write('F  ')
-                    sys.stderr.write(str(subtest))
-                    sys.stderr.write('\n')
-                else:
-                    sys.stderr.write('F')
-            else:
-                self.error_count += 1
-                errors = self.errors
-                errors.append((subtest, self._exc_info_to_string(err, subtest)))
-                output = self.complete_output()
-                self.result.append(
-                    (2, test, output + '\nSubTestCase Error:\n' + str(subtest), self._exc_info_to_string(err, subtest)))
-                if self.verbosity > 1:
-                    sys.stderr.write('E  ')
-                    sys.stderr.write(str(subtest))
-                    sys.stderr.write('\n')
-                else:
-                    sys.stderr.write('E')
-            self._mirrorOutput = True
-        else:
-            self.subtestlist.append(subtest)
-            self.subtestlist.append(test)
-            self.success_count += 1
-            output = self.complete_output()
-            self.result.append((0, test, output + '\nSubTestCase Pass:\n' + str(subtest), ''))
-            if self.verbosity > 1:
-                sys.stderr.write('ok ')
-                sys.stderr.write(str(subtest))
-                sys.stderr.write('\n')
-            else:
-                sys.stderr.write('.')
-
 
 class HTMLTestRunner(Template_mixin):
     """
@@ -685,7 +628,7 @@ class HTMLTestRunner(Template_mixin):
         test(result)
         self.stopTime = datetime.datetime.now()
         self.generateReport(test, result)
-        print('\nTime Elapsed: %s' % (self.stopTime-self.startTime), file=sys.stderr)
+        print (sys.stderr, '\nTime Elapsed: %s' % (self.stopTime-self.startTime))
         return result
 
 
@@ -696,7 +639,7 @@ class HTMLTestRunner(Template_mixin):
         classes = []
         for n,t,o,e in result_list:
             cls = t.__class__
-            if cls not in rmap:
+            if not cls in rmap:
                 rmap[cls] = []
                 classes.append(cls)
             rmap[cls].append((n,t,o,e))
@@ -712,17 +655,17 @@ class HTMLTestRunner(Template_mixin):
         startTime = str(self.startTime)[:19]
         duration = str(self.stopTime - self.startTime)
         status = []
-        if result.success_count: status.append(u'通过 %s'    % result.success_count)
-        if result.failure_count: status.append(u'失败 %s' % result.failure_count)
-        if result.error_count:   status.append(u'错误 %s'   % result.error_count  )
+        if result.success_count: status.append('Pass %s'    % result.success_count)
+        if result.failure_count: status.append('Failure %s' % result.failure_count)
+        if result.error_count:   status.append('Error %s'   % result.error_count  )
         if status:
             status = ' '.join(status)
         else:
             status = 'none'
         return [
-            (u'开始时间', startTime),
-            (u'运行时长', duration),
-            (u'状态', status),
+            ('Start Time', startTime),
+            ('Duration', duration),
+            ('Status', status),
         ]
 
 
@@ -816,18 +759,32 @@ class HTMLTestRunner(Template_mixin):
         desc = doc and ('%s: %s' % (name, doc)) or name
         tmpl = has_output and self.REPORT_TEST_WITH_OUTPUT_TMPL or self.REPORT_TEST_NO_OUTPUT_TMPL
 
+        # o and e should be byte string because they are collected from stdout and stderr?
+        if isinstance(o,str):
+            # TODO: some problem with 'string_escape': it escape \n and mess up formating
+            # uo = unicode(o.encode('string_escape'))
+            uo = o
+        else:
+            uo = o
+        if isinstance(e,str):
+            # TODO: some problem with 'string_escape': it escape \n and mess up formating
+            # ue = unicode(e.encode('string_escape'))
+            ue = e
+        else:
+            ue = e
+
         script = self.REPORT_TEST_OUTPUT_TMPL % dict(
-            id=tid,
-            output=saxutils.escape(o+e),
+            id = tid,
+            output = saxutils.escape(uo+ue),
         )
 
         row = tmpl % dict(
-            tid=tid,
-            Class=(n == 0 and 'hiddenRow' or 'none'),
-            style=(n == 2 and 'errorCase' or (n == 1 and 'failCase' or 'none')),
-            desc=desc,
-            script=script,
-            status=self.STATUS[n],
+            tid = tid,
+            Class = (n == 0 and 'hiddenRow' or 'none'),
+            style = n == 2 and 'errorCase' or (n == 1 and 'failCase' or 'none'),
+            desc = desc,
+            script = script,
+            status = self.STATUS[n],
         )
         rows.append(row)
         if not has_output:

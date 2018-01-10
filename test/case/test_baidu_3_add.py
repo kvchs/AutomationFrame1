@@ -12,9 +12,10 @@ import unittest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from utils.config import Config, DRIVER_PATH, DATA_PATH, REPORT_PATH
-from utils.log import logger
-from utils.file_reader import ExcelReader
-from utils.HTMLTestRunner import HTMLTestRunner
+from utils.log_add import logger
+from utils.file_reader_add import ExcelReader
+from utils.HTMLTestRunner_PY3 import HTMLTestRunner
+import os
 
 
 class TestBaiDu(unittest.TestCase):
@@ -47,7 +48,10 @@ class TestBaiDu(unittest.TestCase):
 
 
 if __name__ == '__main__':
+    # testunit = unittest.TestSuite()
+    # testunit.addTest(TestBaiDu("test_search"))
     report = REPORT_PATH + '\\report.html'
+    print(os.path.abspath(report)+'dddddddddd')
     with open(report, 'wb') as f:
-        runner = HTMLTestRunner(f, verbosity=2, title='从0搭建测试框架 灰蓝', description='修改html报告')
-        runner.run(TestBaiDu('test_search'))
+        runner = HTMLTestRunner(stream=f, verbosity=2, title='从0搭建测试框架', description='html报告')
+        runner.run(TestBaiDu("test_search"))

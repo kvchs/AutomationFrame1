@@ -3,13 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>从0搭建测试框架 灰蓝</title>
-    <meta name="generator" content="HTMLTestRunner 0.8.3"/>
+    <meta name="generator" content="HTMLTestRunner 0.8.2"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     
 <style type="text/css" media="screen">
 body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
 table       { font-size: 100%; }
-pre         { white-space: pre-wrap;word-wrap: break-word; }
+pre         { }
 
 /* -- heading ---------------------------------------------------------------------- */
 h1 {
@@ -27,8 +27,8 @@ h1 {
 }
 
 .heading .description {
-    margin-top: 2ex;
-    margin-bottom: 3ex;
+    margin-top: 4ex;
+    margin-bottom: 6ex;
 }
 
 /* -- css div popup ------------------------------------------------------------------------ */
@@ -50,7 +50,7 @@ a.popup_link:hover {
     font-family: "Lucida Console", "Courier New", Courier, monospace;
     text-align: left;
     font-size: 8pt;
-    /* width: 500px;*/
+    width: 500px;
 }
 
 }
@@ -60,19 +60,25 @@ a.popup_link:hover {
     margin-bottom: 1ex;
 }
 #result_table {
-    width: 99%;
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #777;
 }
 #header_row {
     font-weight: bold;
     color: white;
     background-color: #777;
 }
+#result_table td {
+    border: 1px solid #777;
+    padding: 2px;
+}
 #total_row  { font-weight: bold; }
-.passClass  { background-color: #74A474; }
-.failClass  { background-color: #FDD283; }
-.errorClass { background-color: #FF6600; }
+.passClass  { background-color: #6c6; }
+.failClass  { background-color: #c60; }
+.errorClass { background-color: #c00; }
 .passCase   { color: #6c6; }
-.failCase   { color: #FF6600; font-weight: bold; }
+.failCase   { color: #c60; font-weight: bold; }
 .errorCase  { color: #c00; font-weight: bold; }
 .hiddenRow  { display: none; }
 .testcase   { margin-left: 2em; }
@@ -82,18 +88,8 @@ a.popup_link:hover {
 #ending {
 }
 
-#div_base {
-            position:absolute;
-            top:0%;
-            left:5%;
-            right:5%;
-            width: auto;
-            height: auto;
-            margin: -15px 0 0 0;
-}
 </style>
 
-    <link href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <script language="javascript" type="text/javascript"><!--
@@ -190,26 +186,24 @@ function showOutput(id, name) {
 }
 */
 --></script>
-<div id="div_base">
 
-<div class='page-header'>
+<div class='heading'>
 <h1>从0搭建测试框架 灰蓝</h1>
-<p class='attribute'><strong>开始时间:</strong> 2017-08-21 13:53:38</p>
-<p class='attribute'><strong>运行时长:</strong> 0:00:13.729166</p>
-<p class='attribute'><strong>状态:</strong> 通过 2</p>
+<p class='attribute'><strong>Start Time:</strong> 2018-01-10 22:12:11</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:36.076064</p>
+<p class='attribute'><strong>Status:</strong> Pass 1</p>
 
-</div>
 <p class='description'>修改html报告</p>
-
-
-
-<div class="btn-group btn-group-sm">
-<button class="btn btn-default" onclick='javascript:showCase(0)'>总结</button>
-<button class="btn btn-default" onclick='javascript:showCase(1)'>失败</button>
-<button class="btn btn-default" onclick='javascript:showCase(2)'>全部</button>
 </div>
-<p></p>
-<table id='result_table' class="table table-bordered">
+
+
+
+<p id='show_detail_line'>Show
+<a href='javascript:showCase(0)'>Summary</a>
+<a href='javascript:showCase(1)'>Failed</a>
+<a href='javascript:showCase(2)'>All</a>
+</p>
+<table id='result_table'>
 <colgroup>
 <col align='left' />
 <col align='right' />
@@ -219,79 +213,32 @@ function showOutput(id, name) {
 <col align='right' />
 </colgroup>
 <tr id='header_row'>
-    <td>测试套件/测试用例</td>
-    <td>总数</td>
-    <td>通过</td>
-    <td>失败</td>
-    <td>错误</td>
-    <td>查看</td>
+    <td>Test Group/Test case</td>
+    <td>Count</td>
+    <td>Pass</td>
+    <td>Fail</td>
+    <td>Error</td>
+    <td>View</td>
 </tr>
 
 <tr class='passClass'>
     <td>TestBaiDu</td>
-    <td>2</td>
-    <td>2</td>
+    <td>1</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c1',2)">详情</a></td>
+    <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_search</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
-        通过</a>
-
-    <div id='div_pt1.1' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-pt1.1: 
-SubTestCase Pass:
-test_search (__main__.TestBaiDu) (data={'search': 'selenium 灰蓝'})
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='pt1.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_search</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
-        通过</a>
-
-    <div id='div_pt1.2' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-pt1.2: 
-SubTestCase Pass:
-test_search (__main__.TestBaiDu) (data={'search': 'Python selenium'})
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
+    <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='total_row'>
-    <td>总计</td>
-    <td>2</td>
-    <td>2</td>
+    <td>Total</td>
+    <td>1</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
     <td>&nbsp;</td>
@@ -300,6 +247,5 @@ test_search (__main__.TestBaiDu) (data={'search': 'Python selenium'})
 
 <div id='ending'>&nbsp;</div>
 
-</div>
 </body>
 </html>

@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from test.common.page import Page
+from test.common.page_add import Page
 
 
 class BaiDuMainPage(Page):

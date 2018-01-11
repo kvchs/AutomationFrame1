@@ -52,7 +52,7 @@ class Browser(object):
 
 
 if __name__ == '__main__':
-    b = Browser('Firefox').get('http://www.baidu.com')
+    b = Browser('firefox').get('http://www.baidu.com')
     b.save_screen_shot('test_baidu')
     time.sleep(3)
     b.quit()

@@ -683,3 +683,81 @@
 2018-01-10 22:12:44,739 - framework - INFO - peru
 2018-01-10 22:12:44,782 - framework - INFO - peru - Scotiabank Perú
 2018-01-10 22:12:44,825 - framework - INFO - peru
+2018-01-11 11:38:22,053 - framework - INFO - attach file D:\mypython\Test_framework-master\report\report.html
+2018-01-11 11:38:25,126 - framework - ERROR - 发送邮件失败,无法连接到SMTP服务器，检查网络以及SMTP服务器. [Errno 11004] getaddrinfo failed
+Traceback (most recent call last):
+  File "D:/mypython/Test_framework-master/utils/mail_add.py", line 63, in send
+    smtp_server = smtplib.SMTP(self.server)  # 连接sever
+  File "D:\python\lib\smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "D:\python\lib\smtplib.py", line 335, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "D:\python\lib\smtplib.py", line 306, in _get_socket
+    self.source_address)
+  File "D:\python\lib\socket.py", line 693, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "D:\python\lib\socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+2018-01-11 11:38:43,956 - framework - INFO - attach file D:\mypython\Test_framework-master\report\report.html
+2018-01-11 11:38:46,222 - framework - ERROR - 发送邮件失败,无法连接到SMTP服务器，检查网络以及SMTP服务器. [Errno 11004] getaddrinfo failed
+Traceback (most recent call last):
+  File "D:/mypython/Test_framework-master/utils/mail_add.py", line 63, in send
+    smtp_server = smtplib.SMTP(self.server)  # 连接sever
+  File "D:\python\lib\smtplib.py", line 251, in __init__
+    (code, msg) = self.connect(host, port)
+  File "D:\python\lib\smtplib.py", line 335, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "D:\python\lib\smtplib.py", line 306, in _get_socket
+    self.source_address)
+  File "D:\python\lib\socket.py", line 693, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "D:\python\lib\socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11004] getaddrinfo failed
+2018-01-11 11:39:52,304 - framework - INFO - attach file D:\mypython\Test_framework-master\report\report.html
+2018-01-11 11:39:56,333 - framework - ERROR - 用户名密码验证失败！(535, b'Error: authentication failed')
+Traceback (most recent call last):
+  File "D:/mypython/Test_framework-master/utils/mail_add.py", line 68, in send
+    smtp_server.login(self.sender, self.password)  # 登录
+  File "D:\python\lib\smtplib.py", line 729, in login
+    raise last_exception
+  File "D:\python\lib\smtplib.py", line 720, in login
+    initial_response_ok=initial_response_ok)
+  File "D:\python\lib\smtplib.py", line 641, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Error: authentication failed')
+2018-01-11 11:39:56,337 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-11 12:13:27,929 - framework - INFO - attach file D:\mypython\Test_framework-master\report\report.html
+2018-01-11 12:13:33,214 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-11 12:14:14,112 - framework - INFO - attach file D:\mypython\Test_framework-master\report\report.html
+2018-01-11 12:14:14,504 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-11 12:25:08,970 - framework - INFO - web_百度百科
+2018-01-11 12:25:09,007 - framework - INFO - web_百度翻译
+2018-01-11 12:25:09,040 - framework - INFO - Web 是什么意思? - 知乎
+2018-01-11 12:25:09,087 - framework - INFO - Web - 文章 - 伯乐在线
+2018-01-11 12:25:09,135 - framework - INFO - WEB服务器_百度百科
+2018-01-11 12:25:09,169 - framework - INFO - WhatsApp Web
+2018-01-11 12:25:09,195 - framework - INFO - w3school 在线教程
+2018-01-11 12:25:09,231 - framework - INFO - web - CSDN搜索
+2018-01-11 12:25:09,263 - framework - INFO - Web开发者 - Admin10000.com
+2018-01-11 12:25:09,288 - framework - INFO - web qq
+2018-01-11 12:25:22,210 - framework - INFO - chile_百度翻译
+2018-01-11 12:25:22,238 - framework - INFO - Chile - Wikipedia
+2018-01-11 12:25:22,266 - framework - INFO - 智利_百度百科
+2018-01-11 12:25:22,307 - framework - INFO - chile是什么意思_chile的翻译_音标_读音_用法_例句_爱词霸在线词典
+2018-01-11 12:25:22,333 - framework - INFO - chile是哪个国家_百度知道
+2018-01-11 12:25:22,357 - framework - INFO - 智利位置_智利旅游_百度旅游
+2018-01-11 12:25:22,383 - framework - INFO - CorreosChile
+2018-01-11 12:25:22,421 - framework - INFO - Chileautos: miles de autos y vehículos nuevos y usados
+2018-01-11 12:25:22,449 - framework - INFO - Universidad de Chile
+2018-01-11 12:25:22,475 - framework - INFO - Banco de Chile
+2018-01-11 12:25:34,264 - framework - INFO - peru_百度百科
+2018-01-11 12:25:34,290 - framework - INFO - Peru Travel Information and Vacations Guide | Peru Travel
+2018-01-11 12:25:34,316 - framework - INFO - Peru - Wikipedia
+2018-01-11 12:25:34,350 - framework - INFO - 2018超实用秘鲁旅游攻略_百度旅游_带你玩转秘鲁
+2018-01-11 12:25:34,378 - framework - INFO - Peru_百度翻译
+2018-01-11 12:25:34,409 - framework - INFO - 秘鲁位置_秘鲁旅游_百度旅游
+2018-01-11 12:25:34,440 - framework - INFO - visitperu:秘鲁旅游局官方网站
+2018-01-11 12:25:34,465 - framework - INFO - peru: people: ethnic groups.
+2018-01-11 12:25:34,490 - framework - INFO - peru

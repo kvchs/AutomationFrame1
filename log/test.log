@@ -967,3 +967,31 @@ smtplib.SMTPAuthenticationError: (535, b'Error: authentication failed')
 2018-01-12 09:49:51,130 - framework - INFO - peru - Scotiabank Perú
 2018-01-12 09:49:54,257 - framework - INFO - attach file D:\mypython\Test_framework-master\report\report.html
 2018-01-12 09:49:55,410 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-12 20:35:52,591 - framework - INFO - attach file D:\mypython\Test_framework-master\report\report.html
+2018-01-12 20:35:53,231 - framework - ERROR - 用户名密码验证失败！(535, b'Error: authentication failed')
+Traceback (most recent call last):
+  File "D:/mypython/Test_framework-master/utils/mail_add.py", line 68, in send
+    smtp_server.login(self.sender, self.password)  # 登录
+  File "D:\python\lib\smtplib.py", line 729, in login
+    raise last_exception
+  File "D:\python\lib\smtplib.py", line 720, in login
+    initial_response_ok=initial_response_ok)
+  File "D:\python\lib\smtplib.py", line 641, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Error: authentication failed')
+2018-01-12 20:35:53,274 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-12 20:36:23,565 - framework - INFO - attach file D:\mypython\Test_framework-master\report\report.html
+2018-01-12 20:36:23,845 - framework - ERROR - 用户名密码验证失败！(535, b'Error: authentication failed')
+Traceback (most recent call last):
+  File "D:/mypython/Test_framework-master/utils/mail_add.py", line 68, in send
+    smtp_server.login(self.sender, self.password)  # 登录
+  File "D:\python\lib\smtplib.py", line 729, in login
+    raise last_exception
+  File "D:\python\lib\smtplib.py", line 720, in login
+    initial_response_ok=initial_response_ok)
+  File "D:\python\lib\smtplib.py", line 641, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Error: authentication failed')
+2018-01-12 20:36:23,847 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-12 20:36:51,669 - framework - INFO - attach file D:\mypython\Test_framework-master\report\report.html
+2018-01-12 20:36:52,091 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确

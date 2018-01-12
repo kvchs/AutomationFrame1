@@ -850,3 +850,120 @@ smtplib.SMTPAuthenticationError: (535, b'Error: authentication failed')
 2018-01-11 17:35:45,306 - framework - INFO - peru
 2018-01-11 17:35:48,515 - framework - INFO - attach file D:\mypython\Test_framework-master\report\report.html
 2018-01-11 17:35:49,496 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-12 09:29:16,121 - framework - INFO - web_百度百科
+2018-01-12 09:29:16,148 - framework - INFO - web_百度翻译
+2018-01-12 09:29:16,172 - framework - INFO - Web 是什么意思? - 知乎
+2018-01-12 09:29:16,203 - framework - INFO - Website Design and Online Marketing for Small Business | Web...
+2018-01-12 09:29:16,230 - framework - INFO - Web - 文章 - 伯乐在线
+2018-01-12 09:29:16,261 - framework - INFO - WEB服务器_百度百科
+2018-01-12 09:29:16,289 - framework - INFO - w3school 在线教程
+2018-01-12 09:29:16,313 - framework - INFO - WhatsApp Web
+2018-01-12 09:29:16,342 - framework - INFO - Web开发者 - Admin10000.com
+2018-01-12 09:29:16,366 - framework - INFO - web - CSDN搜索
+2018-01-12 09:29:30,947 - framework - INFO - chile_百度翻译
+2018-01-12 09:29:30,978 - framework - INFO - Chile - Wikipedia
+2018-01-12 09:29:31,007 - framework - INFO - 智利_百度百科
+2018-01-12 09:29:31,036 - framework - INFO - chile是什么意思_chile的翻译_音标_读音_用法_例句_爱词霸在线词典
+2018-01-12 09:29:31,065 - framework - INFO - chile是哪个国家_百度知道
+2018-01-12 09:29:31,094 - framework - INFO - 智利位置_智利旅游_百度旅游
+2018-01-12 09:29:31,121 - framework - INFO - CorreosChile
+2018-01-12 09:29:31,150 - framework - INFO - Chileautos: miles de autos y vehículos nuevos y usados
+2018-01-12 09:29:31,181 - framework - INFO - Universidad de Chile
+2018-01-12 09:29:31,209 - framework - INFO - Banco de Chile
+2018-01-12 09:29:46,297 - framework - INFO - peru_百度百科
+2018-01-12 09:29:46,324 - framework - INFO - Peru_百度翻译
+2018-01-12 09:29:46,351 - framework - INFO - visitperu:秘鲁旅游局官方网站
+2018-01-12 09:29:46,388 - framework - INFO - 2018超实用秘鲁旅游攻略_百度旅游_带你玩转秘鲁
+2018-01-12 09:29:46,417 - framework - INFO - Peru - Wikipedia
+2018-01-12 09:29:46,447 - framework - INFO - 秘鲁位置_秘鲁旅游_百度旅游
+2018-01-12 09:29:46,476 - framework - INFO - Peru Travel Information and Vacations Guide | Peru Travel
+2018-01-12 09:29:46,506 - framework - INFO - peru
+2018-01-12 09:29:46,534 - framework - INFO - peru - Scotiabank Perú
+2018-01-12 09:31:03,026 - framework - INFO - web_百度百科
+2018-01-12 09:31:03,077 - framework - INFO - web_百度翻译
+2018-01-12 09:31:03,113 - framework - INFO - Web 是什么意思? - 知乎
+2018-01-12 09:31:03,141 - framework - INFO - Website Design and Online Marketing for Small Business | Web...
+2018-01-12 09:31:03,170 - framework - INFO - Web - 文章 - 伯乐在线
+2018-01-12 09:31:03,197 - framework - INFO - WEB服务器_百度百科
+2018-01-12 09:31:03,223 - framework - INFO - w3school 在线教程
+2018-01-12 09:31:03,252 - framework - INFO - WhatsApp Web
+2018-01-12 09:31:03,283 - framework - INFO - Web开发者 - Admin10000.com
+2018-01-12 09:31:03,309 - framework - INFO - web - CSDN搜索
+2018-01-12 09:31:18,119 - framework - INFO - chile_百度翻译
+2018-01-12 09:31:18,144 - framework - INFO - Chile - Wikipedia
+2018-01-12 09:31:18,170 - framework - INFO - 智利_百度百科
+2018-01-12 09:31:18,196 - framework - INFO - chile是哪个国家_百度知道
+2018-01-12 09:31:18,220 - framework - INFO - 智利位置_智利旅游_百度旅游
+2018-01-12 09:31:18,246 - framework - INFO - CorreosChile
+2018-01-12 09:31:18,272 - framework - INFO - Chileautos: miles de autos y vehículos nuevos y usados
+2018-01-12 09:31:18,301 - framework - INFO - chile是什么意思_chile的翻译_音标_读音_用法_例句_爱词霸在线词典
+2018-01-12 09:31:18,325 - framework - INFO - Universidad de Chile
+2018-01-12 09:31:18,351 - framework - INFO - Banco de Chile
+2018-01-12 09:31:32,833 - framework - INFO - peru_百度百科
+2018-01-12 09:31:32,860 - framework - INFO - Peru_百度翻译
+2018-01-12 09:31:32,886 - framework - INFO - visitperu:秘鲁旅游局官方网站
+2018-01-12 09:31:32,912 - framework - INFO - 2018超实用秘鲁旅游攻略_百度旅游_带你玩转秘鲁
+2018-01-12 09:31:32,941 - framework - INFO - Peru - Wikipedia
+2018-01-12 09:31:32,967 - framework - INFO - 秘鲁位置_秘鲁旅游_百度旅游
+2018-01-12 09:31:32,996 - framework - INFO - Peru Travel Information and Vacations Guide | Peru Travel
+2018-01-12 09:31:33,020 - framework - INFO - peru
+2018-01-12 09:31:33,058 - framework - INFO - peru - Scotiabank Perú
+2018-01-12 09:31:36,202 - framework - INFO - attach file D:\mypython\Test_framework-master\report\report.html
+2018-01-12 09:31:36,571 - framework - ERROR - 用户名密码验证失败！(535, b'Error: authentication failed')
+Traceback (most recent call last):
+  File "D:\mypython\Test_framework-master\utils\mail_add.py", line 68, in send
+    smtp_server.login(self.sender, self.password)  # 登录
+  File "D:\python\lib\smtplib.py", line 729, in login
+    raise last_exception
+  File "D:\python\lib\smtplib.py", line 720, in login
+    initial_response_ok=initial_response_ok)
+  File "D:\python\lib\smtplib.py", line 641, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Error: authentication failed')
+2018-01-12 09:31:36,593 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-12 09:39:06,253 - framework - INFO - attach file D:\mypython\Test_framework-master\report\report.html
+2018-01-12 09:39:06,872 - framework - ERROR - 用户名密码验证失败！(535, b'Error: authentication failed')
+Traceback (most recent call last):
+  File "D:/mypython/Test_framework-master/utils/mail_add.py", line 68, in send
+    smtp_server.login(self.sender, self.password)  # 登录
+  File "D:\python\lib\smtplib.py", line 729, in login
+    raise last_exception
+  File "D:\python\lib\smtplib.py", line 720, in login
+    initial_response_ok=initial_response_ok)
+  File "D:\python\lib\smtplib.py", line 641, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Error: authentication failed')
+2018-01-12 09:39:06,874 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-12 09:43:11,941 - framework - INFO - attach file D:\mypython\Test_framework-master\report\report.html
+2018-01-12 09:43:12,636 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-12 09:49:17,114 - framework - INFO - web_百度百科
+2018-01-12 09:49:17,149 - framework - INFO - web_百度翻译
+2018-01-12 09:49:17,180 - framework - INFO - Web 是什么意思? - 知乎
+2018-01-12 09:49:17,226 - framework - INFO - Website Design and Online Marketing for Small Business | Web...
+2018-01-12 09:49:17,260 - framework - INFO - w3school 在线教程
+2018-01-12 09:49:17,287 - framework - INFO - Web - 文章 - 伯乐在线
+2018-01-12 09:49:17,329 - framework - INFO - WEB服务器_百度百科
+2018-01-12 09:49:17,357 - framework - INFO - WhatsApp Web
+2018-01-12 09:49:17,385 - framework - INFO - Web开发者 - Admin10000.com
+2018-01-12 09:49:17,424 - framework - INFO - web - CSDN搜索
+2018-01-12 09:49:34,577 - framework - INFO - chile_百度翻译
+2018-01-12 09:49:34,610 - framework - INFO - Chile - Wikipedia
+2018-01-12 09:49:34,643 - framework - INFO - 智利_百度百科
+2018-01-12 09:49:34,673 - framework - INFO - chile是什么意思_chile的翻译_音标_读音_用法_例句_爱词霸在线词典
+2018-01-12 09:49:34,699 - framework - INFO - chile是哪个国家_百度知道
+2018-01-12 09:49:34,728 - framework - INFO - 智利位置_智利旅游_百度旅游
+2018-01-12 09:49:34,753 - framework - INFO - CorreosChile
+2018-01-12 09:49:34,778 - framework - INFO - Chileautos: miles de autos y vehículos nuevos y usados
+2018-01-12 09:49:34,828 - framework - INFO - Universidad de Chile
+2018-01-12 09:49:34,857 - framework - INFO - Banco de Chile
+2018-01-12 09:49:50,891 - framework - INFO - peru_百度百科
+2018-01-12 09:49:50,920 - framework - INFO - Peru_百度翻译
+2018-01-12 09:49:50,953 - framework - INFO - visitperu:秘鲁旅游局官方网站
+2018-01-12 09:49:50,980 - framework - INFO - 2018超实用秘鲁旅游攻略_百度旅游_带你玩转秘鲁
+2018-01-12 09:49:51,006 - framework - INFO - Peru - Wikipedia
+2018-01-12 09:49:51,033 - framework - INFO - 秘鲁位置_秘鲁旅游_百度旅游
+2018-01-12 09:49:51,062 - framework - INFO - Peru Travel Information and Vacations Guide | Peru Travel
+2018-01-12 09:49:51,101 - framework - INFO - peru
+2018-01-12 09:49:51,130 - framework - INFO - peru - Scotiabank Perú
+2018-01-12 09:49:54,257 - framework - INFO - attach file D:\mypython\Test_framework-master\report\report.html
+2018-01-12 09:49:55,410 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确

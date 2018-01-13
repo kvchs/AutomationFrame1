@@ -49,8 +49,8 @@ if __name__ == '__main__':
               message='这是今天的测试报告，请查收！',
               receiver='1490337751@qq.com',
               server='smtp.163.com',
-              sender='15680488752@163.com',
-              password='ma2222de',
+              sender='1**8***@163.com',
+              password='ma****de',
               path=report
               )
     e.send()

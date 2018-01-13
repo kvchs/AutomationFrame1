@@ -6,7 +6,7 @@ from utils.config import Config, DRIVER_PATH, DATA_PATH, REPORT_PATH
 from utils.log_add import logger
 from utils.file_reader_add import ExcelReader
 from utils.HTMLTestRunner_PY3 import HTMLTestRunner
-from utils.mail_add import Email
+from utils.mail_successful import Email
 from test.page.baidu_result_page import BaiDuMainPage, BaiDuResultPage
 
 
@@ -47,10 +47,10 @@ if __name__ == '__main__':
         runner.run(TestBaiDu('test_search'))
     e = Email(title='百度搜素测试报告',
               message='这是今天的测试报告，请查收！',
-              receiver='1490351@qq.com',
+              receiver='1490337751@qq.com',
               server='smtp.163.com',
-              sender='156804**752@163.com',
-              password='',
+              sender='15680488752@163.com',
+              password='ma2222de',
               path=report
               )
     e.send()

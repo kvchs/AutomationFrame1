@@ -995,3 +995,86 @@ smtplib.SMTPAuthenticationError: (535, b'Error: authentication failed')
 2018-01-12 20:36:23,847 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
 2018-01-12 20:36:51,669 - framework - INFO - attach file D:\mypython\Test_framework-master\report\report.html
 2018-01-12 20:36:52,091 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-13 11:04:29,279 - framework - INFO - attach file E:\python_project\Test\AutomationFrame1\report\report.html
+2018-01-13 11:04:30,259 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-13 11:07:42,374 - framework - INFO - attach file E:\python_project\Test\AutomationFrame1\report\report.html
+2018-01-13 11:07:43,084 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-13 11:08:42,469 - framework - INFO - attach file E:\python_project\Test\AutomationFrame1\report\report.html
+2018-01-13 11:08:43,339 - framework - ERROR - 用户名密码验证失败！(535, b'Error: authentication failed')
+Traceback (most recent call last):
+  File "E:/python_project/Test/AutomationFrame1/utils/mail_successful.py", line 159, in send
+    smtp.login(self.sender, self.password)  # 登录
+  File "F:\Python36\lib\smtplib.py", line 730, in login
+    raise last_exception
+  File "F:\Python36\lib\smtplib.py", line 721, in login
+    initial_response_ok=initial_response_ok)
+  File "F:\Python36\lib\smtplib.py", line 642, in auth
+    raise SMTPAuthenticationError(code, resp)
+smtplib.SMTPAuthenticationError: (535, b'Error: authentication failed')
+2018-01-13 11:08:43,659 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-13 11:09:03,960 - framework - INFO - attach file E:\python_project\Test\AutomationFrame1\report\report.html
+2018-01-13 11:09:05,670 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-13 11:12:27,048 - framework - INFO - attach file E:\python_project\Test\AutomationFrame1\report\report.html
+2018-01-13 11:12:28,259 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-13 11:13:29,286 - framework - INFO - web_百度百科
+2018-01-13 11:13:29,314 - framework - INFO - web_百度翻译
+2018-01-13 11:13:29,348 - framework - INFO - Web 是什么意思? - 知乎
+2018-01-13 11:13:29,374 - framework - INFO - Website Design and Online Marketing for Small Business | Web...
+2018-01-13 11:13:29,406 - framework - INFO - w3school 在线教程
+2018-01-13 11:13:29,432 - framework - INFO - WEB服务器_百度百科
+2018-01-13 11:13:29,456 - framework - INFO - WhatsApp Web
+2018-01-13 11:13:29,493 - framework - INFO - Web - 文章 - 伯乐在线
+2018-01-13 11:13:29,518 - framework - INFO - web qq
+2018-01-13 11:13:29,540 - framework - INFO - Web开发者 - Admin10000.com
+2018-01-13 11:13:43,212 - framework - INFO - chile_百度翻译
+2018-01-13 11:13:43,242 - framework - INFO - Chile - Wikipedia
+2018-01-13 11:13:43,272 - framework - INFO - chile是哪个国家_百度知道
+2018-01-13 11:13:43,302 - framework - INFO - 智利位置_智利旅游_百度旅游
+2018-01-13 11:13:43,332 - framework - INFO - chile是什么意思_chile的翻译_音标_读音_用法_例句_爱词霸在线词典
+2018-01-13 11:13:43,362 - framework - INFO - CorreosChile
+2018-01-13 11:13:43,392 - framework - INFO - Chileautos: miles de autos y vehículos nuevos y usados
+2018-01-13 11:13:43,422 - framework - INFO - Universidad de Chile
+2018-01-13 11:13:43,452 - framework - INFO - Banco de Chile
+2018-01-13 11:13:43,482 - framework - INFO - google chile - Facebook - 登录或注册
+2018-01-13 11:13:57,158 - framework - INFO - peru_百度百科
+2018-01-13 11:13:57,187 - framework - INFO - Peru_百度翻译
+2018-01-13 11:13:57,217 - framework - INFO - visitperu:秘鲁旅游局官方网站
+2018-01-13 11:13:57,246 - framework - INFO - 2018超实用秘鲁旅游攻略_百度旅游_带你玩转秘鲁
+2018-01-13 11:13:57,280 - framework - INFO - Peru Travel Information and Vacations Guide | Peru Travel
+2018-01-13 11:13:57,304 - framework - INFO - Peru - Wikipedia
+2018-01-13 11:13:57,337 - framework - INFO - 秘鲁位置_秘鲁旅游_百度旅游
+2018-01-13 11:13:57,360 - framework - INFO - peru
+2018-01-13 11:13:57,394 - framework - INFO - peru - Scotiabank Perú
+2018-01-13 11:14:00,464 - framework - INFO - attach file E:\python_project\Test\AutomationFrame1\report\report.html
+2018-01-13 11:14:00,799 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确
+2018-01-13 11:14:48,860 - framework - INFO - web_百度百科
+2018-01-13 11:14:48,890 - framework - INFO - web_百度翻译
+2018-01-13 11:14:48,920 - framework - INFO - Web 是什么意思? - 知乎
+2018-01-13 11:14:48,940 - framework - INFO - Website Design and Online Marketing for Small Business | Web...
+2018-01-13 11:14:48,975 - framework - INFO - w3school 在线教程
+2018-01-13 11:14:48,995 - framework - INFO - WEB服务器_百度百科
+2018-01-13 11:14:49,025 - framework - INFO - WhatsApp Web
+2018-01-13 11:14:49,055 - framework - INFO - Web - 文章 - 伯乐在线
+2018-01-13 11:14:49,085 - framework - INFO - web qq
+2018-01-13 11:14:49,115 - framework - INFO - Web开发者 - Admin10000.com
+2018-01-13 11:15:02,727 - framework - INFO - chile_百度翻译
+2018-01-13 11:15:02,757 - framework - INFO - Chile - Wikipedia
+2018-01-13 11:15:02,777 - framework - INFO - chile是哪个国家_百度知道
+2018-01-13 11:15:02,807 - framework - INFO - 智利位置_智利旅游_百度旅游
+2018-01-13 11:15:02,837 - framework - INFO - chile是什么意思_chile的翻译_音标_读音_用法_例句_爱词霸在线词典
+2018-01-13 11:15:02,867 - framework - INFO - CorreosChile
+2018-01-13 11:15:02,897 - framework - INFO - Chileautos: miles de autos y vehículos nuevos y usados
+2018-01-13 11:15:02,927 - framework - INFO - Universidad de Chile
+2018-01-13 11:15:02,947 - framework - INFO - Banco de Chile
+2018-01-13 11:15:02,977 - framework - INFO - google chile - Facebook - 登录或注册
+2018-01-13 11:15:16,461 - framework - INFO - peru_百度百科
+2018-01-13 11:15:16,491 - framework - INFO - Peru_百度翻译
+2018-01-13 11:15:16,511 - framework - INFO - visitperu:秘鲁旅游局官方网站
+2018-01-13 11:15:16,541 - framework - INFO - 2018超实用秘鲁旅游攻略_百度旅游_带你玩转秘鲁
+2018-01-13 11:15:16,579 - framework - INFO - Peru Travel Information and Vacations Guide | Peru Travel
+2018-01-13 11:15:16,611 - framework - INFO - Peru - Wikipedia
+2018-01-13 11:15:16,632 - framework - INFO - 秘鲁位置_秘鲁旅游_百度旅游
+2018-01-13 11:15:16,662 - framework - INFO - peru
+2018-01-13 11:15:16,692 - framework - INFO - peru - Scotiabank Perú
+2018-01-13 11:15:19,752 - framework - INFO - attach file E:\python_project\Test\AutomationFrame1\report\report.html
+2018-01-13 11:15:21,229 - framework - INFO - 发送邮件"百度搜素测试报告"成功! 收件人：1490337751@qq.com。如果没有收到邮件，请检查垃圾箱，同时检查收件人地址是否正确

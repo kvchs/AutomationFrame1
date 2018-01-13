@@ -1,4 +1,4 @@
-from test.common.browser import Browser
+from test.common.browser_add import Browser
 
 
 class Page(Browser):

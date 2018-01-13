@@ -1,7 +1,7 @@
-## 环境
+## environment
 
-- Python 3
-- selenium 2.53
+- Python 3.6
+- selenium 3.8
 - PyYaml
 - xlrd
 - requests
